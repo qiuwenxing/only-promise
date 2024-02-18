@@ -1,10 +1,10 @@
 {
   "name": "only-promise",
-  "description": "创建一个单例模式promise调用函数，多个地方调用同一个promise共享同一个实例",
+  "description": "创建一个单例模式Promise调用函数,多处地方在同一时间调用同一个Promise函数时共享同一个Promise实例",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "author": "qiuwenxing",
+  "author": "qiuwenxing <727091090@qq.com>",
   "type": "module",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "vite",
     "promise",
     "only-promise",
-    "only",
+    "typescript",
     "utils"
   ],
   "files": [

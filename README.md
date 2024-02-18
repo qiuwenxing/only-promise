@@ -1,6 +1,6 @@
 # only-promise
 
-创建一个单例模式`Promise`调用函数，多处地方在同一时间调用同一个`Promise`函数时共享同一个`Promise`实例
+创建一个单例模式`Promise`调用函数，多处地方在同一时间调用同一个`Promise`函数时共享同一个`Promise`实例，支持**Typescript**
 
 ## 使用
 
@@ -104,7 +104,7 @@ setTimeout(() => {
   onlyGetTime().then((res) => {
     console.log("result2", res);
   });
-}, 6000);
+}, 10000);
 
 // res 1708251344268
 // res 1708251344268

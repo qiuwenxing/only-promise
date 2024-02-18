@@ -28,4 +28,4 @@ setTimeout(() => {
   onlyGetTime().then(res => {
     console.log('result2', res)
   })
-}, 6000);
+}, 10000);
