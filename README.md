@@ -4,14 +4,30 @@
 
 ## 使用
 
-### npm
+### npm 安装
 
 ```bash
 npm install only-promise -S
 ```
 
+### 使用方法
+
 ```javascript
 import { onlyPromise } from "only-promise";
+
+const getTime = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(Date.now());
+    }, 1000);
+  });
+};
+
+const onlyGetTime = onlyPromise(getTime);
+
+onlyGetTime().then((res) => {
+  console.log("res", res);
+});
 ```
 
 ## Example
