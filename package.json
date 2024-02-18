@@ -1,0 +1,40 @@
+{
+  "name": "only-promise",
+  "description": "创建一个单例模式promise调用函数，多个地方调用同一个promise共享同一个实例",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "qiuwenxing",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiuwenxing/only-promise.git"
+  },
+  "keywords": [
+    "vite",
+    "promise",
+    "only-promise",
+    "only",
+    "utils"
+  ],
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
