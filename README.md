@@ -1,0 +1,2 @@
+# only-promise
+创建一个单例模式promise调用函数，多个地方调用同一个promise共享同一个实例
