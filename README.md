@@ -1,6 +1,6 @@
 # only-promise
 
-创建一个单例模式 promise 调用函数，多个地方调用同一个 promise 共享同一个实例
+创建一个单例模式`Promise`调用函数，多处地方在同一时间调用同一个`Promise`函数时共享同一个`Promise`实例
 
 ## 使用
 
